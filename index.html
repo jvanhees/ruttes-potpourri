@@ -1,0 +1,23 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+---
+<div class="flex flex-wrap justify-center">
+    {% for casualty in site.data.casualties %}
+    <div class="w-48 mx-8 my-4">
+        <a href="{{ casualty.url }}">
+            <div class="h-20 flex flex-col-reverse justify-items-end">
+                <h3 class="text-xl font-bold text-center">
+                    {{ casualty.name }}
+                    <div class="text-center text-sm font-semibold text-gray-500">{{ casualty.date }}</div>
+                </h3>
+            </div>
+            <div class="rounded grayscale my-4 bg-top bg-cover" style="height: 220px; background-image: url('{{ casualty.img }}')"></div>
+            <div class="text-center text-sm font-semibold mb-2 h-12">{{ casualty.title }}</div>
+            <p class="text-sm">{{ casualty.description }}</p>
+        </a>
+    </div>
+    {% endfor %}
+</div>
