@@ -1,3 +1,21 @@
+- name: Tamara van Ark
+  title: Verkenner kabinetsformatie
+  party: VVD
+  date: 2 april 2021
+  img: /assets/img/tamara_van_ark.jpg
+  url: https://www.ad.nl/politiek/verkenners-van-ark-en-koolmees-stoppen~a9e3f45f/
+  description: >-
+    Stopte nadat bekend werd dat VVD-leider Mark Rutte - ondanks eerdere ontkenning - de naam van CDA’er Pieter Omtzigt had genoemd tijdens zijn gesprek met het voormalige verkennersduo.
+
+- name: Wouter Koolmees
+  title: Verkenner kabinetsformatie
+  party: D66
+  date: 2 april 2021
+  img: /assets/img/wouter_koolmees.jpg
+  url: https://www.ad.nl/politiek/verkenners-van-ark-en-koolmees-stoppen~a9e3f45f/
+  description: >-
+    Stopte nadat bekend werd dat VVD-leider Mark Rutte - ondanks eerdere ontkenning - de naam van CDA’er Pieter Omtzigt had genoemd tijdens zijn gesprek met het voormalige verkennersduo.
+
 - name: Kabinet Rutte-III
   title: Nederlands kabinet
   party: VVD, CDA, D66
