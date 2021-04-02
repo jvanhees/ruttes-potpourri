@@ -4,6 +4,7 @@
 
 layout: default
 ---
+<h2 class="mt-8 text-center">Mark's bewindlieden die aftraden om hem verfrissend te houden</h2>
 <div class="flex flex-wrap justify-center">
     {% for casualty in site.data.casualties %}
     <div class="w-48 mx-8 my-4">
@@ -14,7 +15,7 @@ layout: default
                     <div class="text-center text-sm font-semibold text-gray-500">{{ casualty.date }}</div>
                 </h3>
             </div>
-            <div class="rounded grayscale my-4 bg-top bg-cover" style="height: 220px; background-image: url('{{ casualty.img }}')"></div>
+            <div class="rounded grayscale my-4 bg-top bg-cover" style="height: 220px; background-image: url('{{ site.baseurl }}/{{ casualty.img }}')"></div>
             <div class="text-center text-sm font-semibold mb-2 h-12">{{ casualty.title }}</div>
             <p class="text-sm">{{ casualty.description }}</p>
         </a>
