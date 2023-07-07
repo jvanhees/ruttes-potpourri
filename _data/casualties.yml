@@ -1,3 +1,12 @@
+- name: Kabinet Rutte-IV
+  title: Nederlands kabinet
+  party: VVD, CDA, D66, CU
+  date: 7 juli 2023
+  img: /assets/img/bordesfoto-kabinet-rutte-4.jpg
+  url: https://nos.nl/artikel/2481938-kabinet-gevallen-geen-akkoord-over-asielmaatregelen
+  description: >-
+    Trad af wegens gebrek aan overeenstemming over maatregelen om de asielinstroom te beperken.
+
 - name: Henk Staghouwer
   title: Minister van Landbouw, Natuur en Voedselkwaliteit
   party: ChristenUnie
